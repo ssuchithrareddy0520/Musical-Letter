@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Musical Letter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(to bottom right, #0d0d0d, #2b0033);
+            color: #ffd6f5;
+            font-family: 'Kalam', cursive;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+        }
+
+        .intro {
+            font-size: clamp(1.2rem, 1.8vw, 1.2rem);
+            text-align: center;
+            margin-bottom: 60px;
+            border-right: 2px solid pink;
+            text-wrap: wrap;
+            white-space: normal;
+            overflow: hidden;
+            width: 0;
+            /* max-width: 50ch; */
+            animation: typing 4s steps(40, end) forwards, blink 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+        /* @keyframes blink {
+      50% { border-color: transparent; }
+    } */
+        .song-card {
+            opacity: 0;
+            transform: translateY(30px);
+            background: rgba(255, 255, 255, 0.05);
+            border: 2px solid #ff99cc;
+            padding: 20px;
+            margin: 40px 0;
+            border-radius: 15px;
+            box-shadow: 0 0 10px #ff66a3;
+            transition: all 0.6s ease-out;
+        }
+        
+        .song-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #ffb3d9;
+            margin-bottom: 8px;
+        }
+
+        .song-title a {
+            text-decoration: none;
+            color: #ffb3d9;
+        }
+
+        .lyric {
+            font-style: italic;
+            color: #ffcce6;
+            margin-bottom: 5px;
+        }
+
+        .reason {
+            font-size: 1rem;
+            color: #fff0f5;
+        }
+
+        .outro {
+            font-size: 1.2rem;
+            text-align: center;
+            margin-top: 60px;
+            color: #ffb3d9;
+            border-right: 2px solid pink;
+            white-space: nowrap;
+            overflow: hidden;
+            width: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="intro">This is my musical letter to you 💖</div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/7l1qvxWjxcKpB9PCtBuTbU?si=00c512b8685f4513" target="_blank">1.
+                    Count on Me – Bruno Mars</a>
+            </div>
+            <div class="lyric">"I'll sail the world to find you... I'll be the light to guide you"</div>
+            <div class="reason">Because I don't want you to suffer or struggle alone. I'm here for you, always.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/2nMeu6UenVvwUktBCpLMK9?si=sqNNXtDsTWSwiJc-rQP3UwF"
+                    target="_blank">2. Young and Beautiful – Lana Del Rey</a>
+            </div>
+            <div class="lyric">"Will you still love me when I got nothing but my aching soul?"</div>
+            <div class="reason">I don’t want you to leave me and I hope you never will.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/3siwsiaEoU4Kuuc9WKMUy5?si=fedad532e1dd4bd1" target="_blank">3.
+                    No One Noticed – The Marías </a>
+            </div>
+            <div class="lyric">"Fly to your city, excited to see your face"</div>
+            <div class="reason">Even though we're online best friends, I want to meet you one day. I hope you wait for
+                me.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/5XeFesFbtLpXzIVDNQP22n?si=83ede83ed61748ea" target="_blank">4. I
+                    Wanna Be Yours – Arctic Monkeys</a>
+            </div>
+            <div class="lyric">"At least as deep as the Pacific Ocean... Now I wanna be yours"</div>
+            <div class="reason">Because I want to be the one for you, no matter what.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/2psRActEWsTlYYd7EDoyVR?si=d8fdb81af5b74d8d" target="_blank">5.
+                    Those Eyes – New West</a>
+            </div>
+            <div class="lyric">"Cause all of the small things that you do... are what remind me why I fell for you"
+            </div>
+            <div class="reason">I miss you every time we're apart. You're always in my thoughts.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/0EcQcdcbQeVJn9fknj44Be?si=1f39134188fd4d71" target="_blank">6. I
+                    Like Me Better – Lauv</a>
+            </div>
+            <div class="lyric">"I like me better when I’m with you"</div>
+            <div class="reason">Because I like myself better when I'm with you.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/3QGsuHI8jO1Rx4JWLUh9jd?si=afa62b0ad727423b" target="_blank">7.
+                    Treat You Better – Shawn Mendes</a>
+            </div>
+            <div class="lyric">"Just know that you don't have to do this alone"</div>
+            <div class="reason">I want to love you the way you deserve to be loved.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/0T5iIrXA4p5GsubkhuBIKV?si=3a5ad3f9406f43b6" target="_blank">8.
+                    Until I Found You – Stephen Sanchez</a>
+            </div>
+            <div class="lyric">"I would never fall in love again, until I found her"</div>
+            <div class="reason">Because you will always be my best and last.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/3iBgrkexCzVuPy4O9vx7Mf?si=19bd2093b9934242" target="_blank">9.
+                    Glue Song – beabadoobee</a>
+            </div>
+            <div class="lyric">"I've been stuck by glue, right onto you"</div>
+            <div class="reason">I never thought I’d find a friend like you — please don’t let go.</div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-title">
+                <a href="https://open.spotify.com/track/5LrN7yUQAzvthd4QujgPFr?si=2680d72186074717" target="_blank">10.
+                    Here With Me – d4vd</a>
+            </div>
+            <div class="lyric">"I don't care how long it takes... As long as I'm with you, I've got a smile on my face"
+            </div>
+            <div class="reason">Because no matter what, I want this friendship to last forever.</div>
+        </div>
+
+        <div class="outro">Thank you for being there for me in all my ups and downs.<br>Happiiee Birthday!! My princess 😘 . I'm so lucky to
+            have you 💜, Alaaboooo</div>
+
+
+    </div>
+
+    <!-- GSAP + ScrollTrigger -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script>
+       gsap.registerPlugin(ScrollTrigger);
+
+// Animate song cards
+gsap.utils.toArray(".song-card").forEach((card) => {
+  gsap.fromTo(card, 
+    { opacity: 0, y: 30, scale: 0.9 }, 
+    { 
+      opacity: 1, y: 0, scale: 1,
+      duration: 0.8,
+      scrollTrigger: {
+        trigger: card,
+        start: "top 80%",
+        toggleActions: "play none none reverse"
+      }
+    }
+  );
+});
+
+    // Trigger outro typing animation when LAST card is in view
+    ScrollTrigger.create({
+    trigger: ".song-card:last-of-type",
+    start: "bottom bottom",
+    onEnter: () => {
+        const outro = document.querySelector(".outro");
+        outro.style.animation = "typing 4s steps(40, end) forwards"; 
+        outro.style.borderRight = "2px solid pink"; // Add border for typing effect
+        outro.style.whiteSpace = "nowrap"; // Prevent wrapping
+        outro.style.overflow = "hidden"; // Hide overflow
+    }
+    });
+
+    </script>
+</body>
+
+</html>
